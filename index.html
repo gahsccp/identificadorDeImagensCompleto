@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecimento de Imagens usando o MobileNet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+</head>
+<body background="backgroud.png">
+    <h1>Reconhecimento de Imagens com JavaScript</h1>
+    <input type="file" accept="image/*" id="imageUpload" />
+    <div id="imageContainer">
+        <img id="uploadedImage" src="" alt="Imagem Selecionada">
+    </div>
+    <button id="recognizeButton">Reconhecer Imagem</button>
+    <div id="result"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
